@@ -1,0 +1,35 @@
+{
+  "name": "asteroids",
+  "version": "1.0.0",
+  "description": "multiplayer asteroids game",
+  "main": "server/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "server": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rohandeep/Asteroids.git"
+  },
+  "keywords": [
+    "multiplayer",
+    "asteroids",
+    "game",
+    "express",
+    "socketio",
+    "js",
+    "javascript"
+  ],
+  "author": "Justin Mintzer, Rohandeep Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rohandeep/Asteroids/issues"
+  },
+  "homepage": "https://github.com/Rohandeep/Asteroids#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
